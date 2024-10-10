@@ -68,6 +68,9 @@ public final class YosegiTool{
     else if( "merge".equals( command ) ){
       MergeTool.main( commandArgs );
     }
+    else if( "cut".equals( command ) ){
+      CutTool.main( commandArgs );
+    }
     else if( "to_arrow".equals( command ) ){
       ConvertArrowFormatTool.main( commandArgs );
     }
